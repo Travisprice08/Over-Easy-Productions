@@ -31,6 +31,16 @@ export default function Intro() {
                             Our Services Include...
                         </h3>
                         <h2><span ref={textRef}></span></h2>
+                        <button>
+                            <a href="https://vimeo.com/">
+                                <img src="assets/vimeo.svg" />
+                            </a>
+                        </button>
+                        {/* <button>
+                            <a href="https://vimeo.com/">
+                                <img src="assets/vimeo.svg" />
+                            </a>
+                        </button> */}
                     </div>
                 </React.StrictMode>
             </div>

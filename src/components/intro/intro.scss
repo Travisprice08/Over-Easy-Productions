@@ -1,5 +1,7 @@
+@import "../../global.scss";
+
 .intro {
-    background-color: rgb(240, 237, 228);
+    background-color: $mainColor;
     display: flex;
 
     .left {
@@ -7,15 +9,16 @@
         overflow: hidden;
 
         .imgContainer {
-            width: 700px;
-            height: 700px;
+            width: 85%;
+            // height: 700px;
+            height: 100%;
             // border-radius: 50%;
             display: flex;
             align-items: flex;
             justify-content: center;
             overflow: inherit;
             clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-            margin: 70px 90px;
+            margin: auto;
         }
     }
 
@@ -25,6 +28,7 @@
         overflow: hidden;
 
         .wrapper {
+            margin-top: 100px;
             width: 100%;
             height: 70%;
             padding-left: 50px;
@@ -52,11 +56,12 @@
             span {
                 margin: 10px 0px;
                 font-size: inherit;
-                color: #FFC000;
+                color: $accentColor;
                 // color: rgb(158, 27, 215);
             }
 
             .ityped-cursor {
+                color: $darkAccent;
                 animation: blink 1s infinite;
             }
 
@@ -70,6 +75,47 @@
                 }
             }
 
+            button {
+                margin-top: 100px;
+                margin-left: 200px;
+                background-color: $accentColor;
+                color: $darkAccent;
+                width: 150px;
+                height: 60px;
+                font-weight: 100;
+                border-style: solid;
+                border-color: $darkAccent;
+                border-radius: 8px;
+                box-shadow: 5px 5px;
+                cursor: pointer;
+
+                a {
+                    text-decoration: none;
+                    text-decoration-color: none;
+                }
+
+                img {
+                    // position: fixed;
+                    width: 40px;
+                    height: 40px;
+                    // margin-right: 50px;
+                }
+
+                // h3 {
+                //     display: inline;
+                //     font-size: medium;
+                //     margin-top: 100px;
+                // }
+
+                &:hover {
+                    background-color: $darkAccent;
+                    color: $mainColor;
+                    opacity: 0.9;
+                    // z-index: 0;
+                }
+            }
         }
+
+
     }
 }

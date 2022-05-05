@@ -1,8 +1,9 @@
+@import "../../global.scss";
+
 .topbar {
     width: 100%;
     height: 80px;
     background-color: #FFC000;
-    color: white;
     position: fixed;
     top: 0;
     z-index: 3;
@@ -34,14 +35,14 @@
         }
 
         .center {
-            // color: black;
-            // font-family: 'Oleo Script', cursive;
-            // font-size: x-large;
-            // margin: 0px 30px;
+            color: $darkAccent;
+            font-family: 'Oleo Script', cursive;
+            font-size: x-large;
+            margin: 0px 30px;
 
             h1 {
-                color: black;
-                font-family: 'Oleo Script', cursive;
+                // color: black;
+                // font-family: 'Oleo Script', cursive;
                 font-size: 50px;
                 margin-right: 30px;
             }
@@ -50,17 +51,18 @@
         .right {
 
             .menuSelect {
-                width: 32px;
-                height: 25px;
+                width: 37px;
+                height: 30px;
                 display: flex;
                 flex-direction: column;
                 justify-content: space-between;
                 cursor: pointer;
+                padding-bottom: 10px;
 
                 span {
                     width: 100%;
-                    height: 3px;
-                    background-color: white;
+                    height: 4px;
+                    background-color: $darkAccent;
                     transform-origin: left;
                     transition: all 1s ease;
                 }
@@ -69,23 +71,28 @@
     }
 
     &.active {
-        background-color: white;
-        color: black;
+        background-color: $darkAccent;
+        color: $accentColor;
+        transition: all 1s ease;
+
+        h1 {
+            color: $accentColor;
+        }
 
         .menuSelect {
             span {
                 &:first-child {
-                    background-color: black;
+                    background-color: $accentColor;
                     transform: translate(-15px, 0%);
                 }
 
                 &:nth-child(2) {
-                    background-color: black;
+                    background-color: $accentColor;
                     // opacity: 0;
                 }
 
                 &:last-child {
-                    background-color: black;
+                    background-color: $accentColor;
                     transform: translate(-15px, 0%);
                 }
             }
