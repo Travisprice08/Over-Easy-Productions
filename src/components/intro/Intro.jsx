@@ -10,7 +10,7 @@ export default function Intro() {
             showCursor: true,
             backDelay: 1500,
             backSpeed: 60,
-            strings: ["Prmotional Ads", "Weddings", "Interviews", "Seminars", " And More!"],
+            strings: ["Promotional Ads", "Weddings", "Interviews", "Seminars", " And More!"],
         });
     }, []);
 
@@ -23,16 +23,16 @@ export default function Intro() {
                 </div>
             </div>
             <div className="right">
-                {/* <React.StrictMode> */}
-                <div className="wrapper">
-                    <h2>Welcome to Over Easy Productions</h2>
-                    <h1>A Video Production Company</h1>
-                    <h3>
-                        We Offer
-                    </h3>
-                    <h2><span ref={textRef}></span></h2>
-                </div>
-                {/* </React.StrictMode> */}
+                <React.StrictMode>
+                    <div className="wrapper">
+                        <h2>Welcome to Over Easy Productions</h2>
+                        <h1>A Video Production Company</h1>
+                        <h3>
+                            Our Services Include...
+                        </h3>
+                        <h2><span ref={textRef}></span></h2>
+                    </div>
+                </React.StrictMode>
             </div>
         </div>
     )
