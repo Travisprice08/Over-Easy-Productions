@@ -19,7 +19,7 @@ export default function Intro() {
             <div className="left">
                 <div className="imgContainer">
                     {/* <img src="https://www.thesun.co.uk/wp-content/uploads/2020/03/NINTCHDBPICT000570348801.jpg?strip=all&w=960" /> */}
-                    <img src="assets/ralph.jpg" className="image" />
+                    <img src="assets/ralph2.jpg" className="image" />
                 </div>
             </div>
             <div className="right">
