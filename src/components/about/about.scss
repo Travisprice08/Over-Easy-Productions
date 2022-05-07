@@ -1,0 +1,79 @@
+@import "../../global.scss";
+
+.about {
+    background-color: $mainColor;
+    width: 100%;
+    height: 80%;
+    // padding: 20px;
+    padding-top: 10px;
+    align-items: center;
+
+    h1 {
+        font-size: 50px;
+        font-family: 'Oleo Script', cursive;
+        color: $darkAccent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left {
+        width: 30%;
+        height: 80%;
+        position: static;
+        z-index: 1;
+        // background-color: $mainColor;
+        // background-color: red;
+        // padding-left: 30px;
+        margin-top: 30px;
+        float: left;
+
+        .wrapper {
+            margin-left: 3%;
+            width: 200%;
+            height: 105.6%;
+            border: solid;
+            border-radius: 15px;
+            background-color: $mainColor;
+
+            h3 {
+                color: $darkAccent;
+                position: relative;
+                font-family: 'Bebas Neue', cursive;
+                font-size: 27px;
+                font-weight: 500;
+                padding: 15px 15px;
+            }
+        }
+    }
+
+    .right {
+        flex: 0.5;
+        overflow: hidden;
+        position: static;
+        z-index: 0;
+        // height: 80%;
+        // width: 100%;
+        // background-color: aqua;
+        margin-top: 30px;
+
+        .imgContainer {
+            width: 95%;
+            height: 95%;
+            margin-left: 45px;
+            display: flex;
+            overflow: hidden;
+            // clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+            clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+            border-style: solid;
+            border-color: $darkAccent;
+            border-radius: 0px 15px 15px 0px;
+            // box-shadow: 5px 50px;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
