@@ -1,7 +1,8 @@
 @import "../../global.scss";
 
 .about {
-    background-color: $mainColor;
+    background-color: $darkAccent;
+    // background-color: $mainColor;
     width: 100%;
     height: 80%;
     // padding: 20px;
@@ -11,7 +12,7 @@
     h1 {
         font-size: 50px;
         font-family: 'Oleo Script', cursive;
-        color: $darkAccent;
+        color: $accentColor;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -29,14 +30,15 @@
         float: left;
 
         .wrapper {
-            margin-left: 3%;
+            margin-left: 3.2%;
             width: 227%;
             height: 105.6%;
             border: solid;
             border-right: 0px;
             border-radius: 15px;
+            box-shadow: 0px 0px 35px -8px $mainColor;
             background-color: rgba(240, 237, 228, 0.144);
-            background-image: linear-gradient(to right, rgb(240, 237, 228, 1), rgba(240, 237, 228, 0.728), rgb(240, 237, 228, 0.01));
+            background-image: linear-gradient(to right, rgba(240, 237, 228, 0.777), rgba(240, 237, 228, 0.259), rgb(240, 237, 228, 0.01));
 
             h3 {
                 color: $darkAccent;
@@ -65,18 +67,19 @@
         overflow: hidden;
         z-index: 0;
         height: 88.9%;
-        width: 80%;
+        width: 68%;
         // background-color: aqua;
-        margin-top: 30px;
+        margin-top: 27px;
         float: right;
 
         .imgContainer {
             width: 95%;
-            height: 95%;
-            margin-left: 53px;
+            height: 95.4%;
+            margin-left: 45px;
             display: flex;
             overflow: hidden;
-            clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+            clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0 100%, 0% 50%, 0 1%);
+            // clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
             // clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
             // clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
             border-style: solid;

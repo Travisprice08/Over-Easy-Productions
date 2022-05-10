@@ -9,8 +9,8 @@ export default function About() {
                     <h3>We are Over Easy Production</h3>
                     <p>We are a video production company that specializes in offering professional
                         <br />and creative videography at competitive and affordable prices.</p>
-                    <p>Our services range from promotional ads, weddings, to interviews and seminars.
-                        <br />Anything you want on video we capture and edit professionally.</p>
+                    {/* <p>Our services range from promotional ads, weddings, to interviews and seminars.
+                        <br />Anything you want on video we capture and edit professionally.</p> */}
                     <p>We’ve been in business for four years and are owner operated so you can be assured
                         <br />creativity and customer satisfaction is top priority.</p>
                     {/* <p>Feel free to call, text or email at anytime with questions and scheduling.</p> */}

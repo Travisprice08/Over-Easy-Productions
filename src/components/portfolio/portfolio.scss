@@ -6,10 +6,12 @@
     flex-direction: column;
     align-items: center;
 
+
     h1 {
         color: $darkAccent;
         font-size: 50px;
         font-family: 'Oleo Script', cursive;
+        padding-top: 15px;
     }
 
     .container {
@@ -23,18 +25,19 @@
             width: 250px;
             height: 70%;
             border-radius: 10px;
-            box-shadow: 0px 0px 15px -8px $darkAccent;
+            box-shadow: 0px 0px 35px -8px $darkAccent;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             padding: 20px;
+            margin: 0 15px;
             transition: all 1s ease;
 
-            &.featured {
-                width: 300px;
-                height: 75%;
-                margin: 0 30px;
-            }
+            // &.featured {
+            // width: 300px;
+            // height: 75%;
+            // margin: 0 30px;
+            // }
 
             &:hover {
                 transform: scale(1.1);
@@ -53,9 +56,9 @@
                     }
 
                     &.user {
-                        height: 200px;
-                        width: 200px;
-                        border-radius: 50%;
+                        height: 270px;
+                        width: 250px;
+                        border-radius: 2%;
                         object-fit: cover;
                         margin: 0 30px;
                     }
@@ -63,24 +66,28 @@
             }
 
             .center {
-                padding: 10px;
-                border-radius: 10px;
-                background-color: rgb(250, 244, 245);
-            }
-
-            .bottom {
                 display: flex;
                 align-items: center;
                 flex-direction: column;
                 justify-content: center;
+                font-family: 'Oleo Script', cursive;
+                color: $darkAccent;
+                font-size: larger;
+            }
 
-                h3 {
-                    margin-bottom: 5px;
-                }
+            .bottom {
+                padding: 10px;
+                border-radius: 10px;
+                font-family: 'Bebas Neue', cursive;
+                color: $darkAccent;
 
-                h4 {
-                    color: $darkAccent;
-                }
+                // h3 {
+                //     margin-bottom: 5px;
+                // }
+
+                // h4 {
+                //     color: $darkAccent;
+                // }
             }
         }
     }
