@@ -1,6 +1,7 @@
 import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
+import oep from "../video/oep.mp4";
 
 export default function Intro() {
     const textRef = useRef();
@@ -18,7 +19,14 @@ export default function Intro() {
         <div className='intro'>
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assets/ralph.gif" className="image" />
+                    <video
+                        className="oep"
+                        autoPlay
+                        loop
+                        muted>
+                        <source src={oep} type="video/mp4" />
+                    </video>
+                    {/* <img src="assets/ralph.gif" className="image" /> */}
                 </div>
             </div>
             <div className="right">

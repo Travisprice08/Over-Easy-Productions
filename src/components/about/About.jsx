@@ -1,4 +1,5 @@
 import "./about.scss"
+import oep from "../video/oep.mp4";
 
 export default function About() {
     return (
@@ -23,6 +24,12 @@ export default function About() {
             </div>
             <div className="right">
                 <div className="imgContainer">
+                    {/* <video
+                        autoPlay
+                        loop
+                        muted>
+                        <source src={oep} type="video/mp4" />
+                    </video> */}
                     <img src="assets/holy.gif" alt="" />
                 </div>
             </div>

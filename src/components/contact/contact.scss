@@ -1,11 +1,12 @@
 @import "../../global.scss";
 
 .contact {
-    background-color: $darkAccent;
+    background-color: $darkTrans;
     display: flex;
     flex-direction: column;
     align-items: center;
     // padding-top: 15px;
+    position: relative;
 
     h1 {
         padding-top: 15px;
