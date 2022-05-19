@@ -5,48 +5,43 @@ export default function Portfolio() {
         {
             id: 1,
             name: "Weddings",
-            // title: "IT",
             img:
                 "assets/wed1.png",
             desc:
-                "Your big day will be full of laughter and love that you will never forget, and we are here to make sure of it.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         },
         {
             id: 2,
             name: "Promotional Ads",
-            // title: "My Cousin Vinny",
             img:
                 "assets/shop.png",
             desc:
-                "Want to promote something? Whether for your business, your products, or yourself, consider your shit promoted. ",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             featured: true,
         },
         {
             id: 3,
             name: "Interviews",
-            title: "Lars and The Real Girl",
             img:
                 "assets/nkc.png",
             desc:
-                "Do you have some shit that you want to say? We are here to make sure you don't look stupid, even if what you say is.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         },
         {
             id: 4,
             name: "Commercials",
-            title: "Lars and The Real Girl",
             img:
                 "assets/shop3.png",
             desc:
-                "The pandemic sucked, we all know it. Let everyone know that you made it to the otherside with a slick new commerical.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         },
         {
             id: 5,
             name: "Events",
-            title: "Lars and The Real Girl",
             img:
                 "assets/courts.png",
             desc:
-                "We all think our child is special, and they might be, but probably not. We are here to remind you of what could have been.",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         },
     ];
     return (
