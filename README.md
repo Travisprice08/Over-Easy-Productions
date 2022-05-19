@@ -1,4 +1,7 @@
 ![fa-db](/public/assets/oezp.gif)
+# About This App
+
+This project was created for a videography company for exsposure to new clientele.
 
 # Getting Started with Create React App
 
