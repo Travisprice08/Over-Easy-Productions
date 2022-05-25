@@ -3,7 +3,6 @@ import "./menu.scss"
 export default function Menu({ menuOpen, setMenuOpen }) {
     return (
         <div className={"menu " + (menuOpen && "active")}>
-            {/*Try creating a new component for li's so only one onClick is necessary              */}
             <ul>
                 <li onClick={() => setMenuOpen(false)}>
                     <a href="#intro">Intro</a>
