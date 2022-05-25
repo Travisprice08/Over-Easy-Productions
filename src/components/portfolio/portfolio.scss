@@ -24,7 +24,7 @@
 
         .card {
             background-color: $mainColor;
-            width: 250px;
+            width: 180px;
             height: 70%;
             border-radius: 10px;
             box-shadow: 0px 0px 35px -8px $darkAccent;
@@ -58,8 +58,8 @@
                     }
 
                     &.user {
-                        height: 270px;
-                        width: 250px;
+                        height: 190px;
+                        width: 190px;
                         border-radius: 2%;
                         object-fit: cover;
                         margin: 0 30px;

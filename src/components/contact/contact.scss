@@ -9,7 +9,6 @@
     position: relative;
 
     h1 {
-        padding-top: 15px;
         color: $accentColor;
         font-size: 50px;
         font-family: 'Oleo Script', cursive;
@@ -31,6 +30,7 @@
 
             width: 70%;
             height: 80%;
+            margin-bottom: 30px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -39,9 +39,14 @@
             .link {
                 width: 10%;
                 height: 15%;
-                margin: 50px;
+                margin: 0 95px 275px 20px;
                 display: flex;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
             }
+
         }
     }
 }

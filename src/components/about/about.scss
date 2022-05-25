@@ -26,7 +26,7 @@
         // background-color: $mainColor;
         // background-color: red;
         // padding-left: 30px;
-        margin-top: 30px;
+        margin-top: 28px;
         float: left;
 
         .wrapper {
@@ -44,9 +44,9 @@
                 color: $darkAccent;
                 position: relative;
                 font-family: 'Oleo Script', cursive;
-                font-size: 35px;
+                font-size: 25px;
                 font-weight: 900;
-                margin: 50px 60px;
+                margin: 30px 50px;
                 padding: 25px 35px;
             }
 
@@ -56,7 +56,7 @@
                 font-family: 'Bebas Neue', cursive;
                 font-size: 20px;
                 font-weight: 900;
-                margin-top: 30px;
+                margin-top: 20px;
                 padding: 5px 35px;
             }
         }
@@ -66,7 +66,7 @@
         flex: 0.5;
         overflow: hidden;
         z-index: 0;
-        height: 88.9%;
+        height: 89%;
         width: 68%;
         // background-color: aqua;
         margin-top: 27px;
@@ -75,7 +75,7 @@
         .imgContainer {
             width: 95%;
             height: 95.4%;
-            margin-left: 45px;
+            margin-left: 30px;
             display: flex;
             overflow: hidden;
             clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 0 100%, 0% 50%, 0 1%);

@@ -1,7 +1,7 @@
 import "./intro.scss";
 import { init } from "ityped";
 import { useEffect, useRef } from "react";
-import oep from "../video/oep.mp4";
+import oep from "../video/oep2.mp4";
 
 export default function Intro() {
     const textRef = useRef();
@@ -11,7 +11,7 @@ export default function Intro() {
             showCursor: true,
             backDelay: 1500,
             backSpeed: 60,
-            strings: ["Promotional Ads", "Weddings", "Interviews", "Seminars", " And More!"],
+            strings: ["Promo Ads", "Weddings", "Interviews", "Seminars", "Photography", "Videography", "And More!"],
         });
     }, []);
 

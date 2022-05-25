@@ -3,3 +3,11 @@ $mainTrans: rgba(240, 237, 228, 0.657);
 $accentColor: #FFC000;
 $darkAccent: rgb(56, 55, 55);
 $darkTrans: rgb(56, 55, 55, 0.657);
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}) {
+        @content
+    }
+}
