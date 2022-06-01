@@ -4,10 +4,15 @@
     background-color: $darkAccent;
     // background-color: $mainColor;
     width: 100%;
-    height: 80%;
+    height: 100%;
     // padding: 20px;
-    padding-top: 10px;
+    // padding-top: 10px;
     align-items: center;
+    overflow-y: hidden;
+
+    @include mobile {
+        background-image: url("https://toppng.com/uploads/preview/camera-bokeh-blur-lights-lens-115699966159xsw41tl6p.jpg");
+    }
 
     h1 {
         font-size: 50px;
@@ -16,27 +21,36 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        @include mobile {
+            padding-top: 10px;
+        }
     }
 
     .left {
-        width: 43%;
-        height: 80%;
+        width: 43vw;
+        height: 80vw;
         position: absolute;
-        z-index: 1;
+        z-index: 0;
         // background-color: $mainColor;
         // background-color: red;
         // padding-left: 30px;
-        margin-top: 28px;
         float: left;
+        margin-top: 5px;
+
+        @include mobile {
+            width: 115vw;
+            height: 150vh;
+        }
 
         .wrapper {
             margin-left: 3.2%;
-            width: 227%;
-            height: 105.6%;
+            width: 78%;
+            height: 47%;
             border: solid;
             border-right: 0px;
-            border-radius: 15px;
-            box-shadow: 0px 0px 35px -8px $mainColor;
+            border-radius: 15px 0 0 15px;
+            // box-shadow: 0px 0px 35px -8px $mainColor;
             background-color: rgba(240, 237, 228, 0.144);
             background-image: linear-gradient(to right, rgba(240, 237, 228, 0.777), rgba(240, 237, 228, 0.259), rgb(240, 237, 228, 0.01));
 
@@ -66,15 +80,14 @@
         flex: 0.5;
         overflow: hidden;
         z-index: 0;
-        height: 89%;
+        height: 90.5%;
         width: 68%;
         // background-color: aqua;
-        margin-top: 27px;
         float: right;
 
         .imgContainer {
             width: 95%;
-            height: 95.4%;
+            height: 95.6%;
             margin-left: 30px;
             display: flex;
             overflow: hidden;
@@ -86,10 +99,18 @@
             border-color: $darkAccent;
             border-radius: 0px 15px 15px 0px;
 
+            @include mobile {
+                display: none;
+            }
+
             img {
                 width: 100%;
                 height: 100%;
             }
         }
+    }
+
+    @include mobile {
+        overflow-y: hidden;
     }
 }

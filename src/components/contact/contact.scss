@@ -8,6 +8,10 @@
     // padding-top: 15px;
     position: relative;
 
+    @include mobile {
+        background-image: url("https://images.pexels.com/photos/2335046/pexels-photo-2335046.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    }
+
     h1 {
         color: $accentColor;
         font-size: 50px;
@@ -36,10 +40,14 @@
             justify-content: center;
             flex-wrap: wrap;
 
+            @include mobile {
+                padding-left: 30px;
+            }
+
             .link {
-                width: 10%;
-                height: 15%;
-                margin: 0 95px 275px 20px;
+                width: 20%;
+                height: auto;
+                margin: 0 65px 50px 20px;
                 display: flex;
 
                 &:hover {
